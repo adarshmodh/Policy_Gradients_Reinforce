@@ -11,6 +11,6 @@ You can see the training performance:
 utils.py - contains code for defining the policy model
 Also contains code for testing the model policy_model.pt learned by policy gradient
 
-To see how good the policy_model, just run test_model.py
+To see how the policy model actually works, just run test_model.py
 
 ![picture alt](test.gif)
