@@ -5,7 +5,7 @@ The Policy is parametrized by a 2 layer (fully-connected layers with 128 neurons
 Learned model is stored as policy_model.pt and can be tested from a function inside the tester code
 
 You can see the training curves:
-![picture alt](plot1.png)
+![picture alt](plot_1.png)
 
 utils.py - contains code for defining the policy model
 Also contains code for testing the model policy_model.pt learned by policy gradient
