@@ -1,4 +1,4 @@
-Code for implementing a type of Monte-Carlo Policy gradients algorithm Reinforce to solve the CartPole-v1 environment
+Code for implementing a type of Monte-Carlo Policy gradients algorithm Reinforce to solve the [CartPole-v1](https://gym.openai.com/envs/CartPole-v1/) environment. It is a discrete action control task which is also known as inverted pendulum. 
 
 train_policy_gradient.py - Contains code for learning the optimal policy using policy gradient REINFORCE algorithm. 
 The Policy is parametrized by a 2 layer (fully-connected layers with 128 neurons each) neural network defined in utils.py
