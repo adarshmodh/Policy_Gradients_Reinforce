@@ -1,4 +1,4 @@
-Code for implementing a type of Policy gradients algorithm Reinforce to solve the CartPole-v1 environment
+Code for implementing a type of Monte-Carlo Policy gradients algorithm Reinforce to solve the CartPole-v1 environment
 
 train_policy_gradient.py - Contains code for learning the optimal policy using policy gradient REINFORCE algorithm. 
 The Policy is parametrized by a 2 layer (fully-connected layers with 128 neurons each) neural network defined in utils.py
