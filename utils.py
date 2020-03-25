@@ -48,7 +48,7 @@ class Tester(object):
         # values = np.zeros(16)
 
         self.model = Policy()
-        self.model.load_state_dict(torch.load("policy_model.pt"))
+        self.model.load_state_dict(torch.load("policy_model.pt", map_location=device))
         self.model.eval()
 
 
